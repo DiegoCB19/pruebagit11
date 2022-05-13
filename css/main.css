@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*estilos del padre*/
+.padre {
+    display: grid;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 1fr 1fr;
+    /*unidad de medida  para el uso de grid, se llama fr*/
+    /*vemos una propiopiedas para generar entre filas y columnas , y esta se lama gap*/
+
+    column-gap: 10px; /* de lado*/
+    gap: 30px; /* hacia abajo*/
+}
+
+
+.div-1 {
+    background-color: aqua;
+}
+
+.div-2{
+    background-color: black;
+}
+
+.div-3 {
+    background-color: blue;
+}
+
+.div-4 {
+    background-color: brown;
+}
